@@ -4,7 +4,8 @@ archlinux ao utilizar os gerenciadores de pacotes __pacman__ e __yay__, e
 embora com um breve comando possamos realizar essa mesma instalação com o
 __pacman__, o mesmo não ocorre com o __yay__, visto que o motivo se dá pelo
 fato da instalação parar repentinamente com a execução ao utilizar o
-`--noconfirm`.
+`--noconfirm`e pode ser variante de acordo com os pacotes pré-instalados ou
+as configurações locais.
 
 ## Utilizando o script
 
@@ -72,6 +73,11 @@ Sync Make Dependency (1): python-sphinx-7.0.0-1
 ==> [N]Nenhum [A]Todos [Ab]Abortar [I]Instalados [No]Não Instalados ou (1 2 3, 1-3, ^4)
 ==>  -> read /dev/stdin: file already closed
 ```
+
+> NOTA: Esse tipo de erro ocorre quando realizamos a instalação repassando o
+> parâmetro `--noconfirm`, mas aparentemente as configurações ou pacotes
+> pré-instalados também influenciam, ou seja, o erro nem sempre vai aparecer
+> para todos os usuários.
 
 #### Utilizando o pacman
 A instalação é realizada com Êxito.
