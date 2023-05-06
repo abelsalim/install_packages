@@ -1,0 +1,17 @@
+python-odoorpc
+python-pypdf2
+python-inscriptis
+python-pdfkit
+python-polib
+hunspell-pt-br
+hyphen-pt-br
+python-libsass
+python-num2words
+python-ofxparse
+python-pyephem
+python-pytelegrambotapi
+python-barcode
+wkhtmltopdf-static
+ca-certificates-icp_br
+jre
+jdk
